@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-RUN go build -o main .
+RUN go get github.com/bradfitz/gomemcache/memcache && go build -o main .
 
 EXPOSE 8080
 
