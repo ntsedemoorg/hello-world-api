@@ -3,6 +3,8 @@ package main
 import (
 	"encoding/json"
 	"net/http"
+	"os"
+	"log"
 	"github.com/bradfitz/gomemcache/memcache"
 )
 
