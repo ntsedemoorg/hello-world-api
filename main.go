@@ -3,7 +3,7 @@ package main
 import (
 	"encoding/json"
 	"net/http"
-	"github.com/bradfitz/gomemcache"
+	"github.com/bradfitz/gomemcache/memcache"
 )
 
 type Response struct {
