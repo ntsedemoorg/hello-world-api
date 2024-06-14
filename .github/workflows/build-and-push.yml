@@ -32,4 +32,4 @@ jobs:
           IMAGE_TAG: latest
         with:
           push: true
-          tags: $REGISTRY/$REPOSITORY:$IMAGE_TAG
+          tags: ${{ env.REGISTRY }}/${{ env.REPOSITORY }}:${{ env.IMAGE_TAG }}
